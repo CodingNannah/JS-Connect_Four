@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(125, 155, 167); 
+}
+
+.title {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 75px;
+    
+    background-color: blue;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+#winner {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* board id */
+#board {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 540px;
+    width: 630px;
+
+    background-color: blue;
+    border: 10px solid rgb(14, 14, 125);
+}
+
+/* tile class */
+.tile {
+    margin: 5px;
+
+    height: 70px;
+    width: 70px;
+
+    background-color: rgb(133, 141, 144);
+    border-radius: 50%;
+    border: 5px solid rgb(14, 14, 125);
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
